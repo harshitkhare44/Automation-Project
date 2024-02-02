@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-24T04:10:57 IST" name="Default suite" finished-at="2024-01-24T04:11:25 IST" duration-ms="28168">
+    <groups>
+    </groups>
+    <test started-at="2024-01-24T04:10:57 IST" name="Default test" finished-at="2024-01-24T04:11:25 IST" duration-ms="28168">
+      <class name="com.harshitJava.SeleniumAutomationStepByStep.App">
+        <test-method signature="setAndLaunch()[pri:0, instance:com.harshitJava.SeleniumAutomationStepByStep.App@630cb4a4]" started-at="2024-01-24T04:10:57 IST" name="setAndLaunch" finished-at="2024-01-24T04:11:04 IST" duration-ms="6887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAndLaunch -->
+        <test-method signature="selectLocation()[pri:0, instance:com.harshitJava.SeleniumAutomationStepByStep.App@630cb4a4]" started-at="2024-01-24T04:11:04 IST" name="selectLocation" finished-at="2024-01-24T04:11:06 IST" depends-on-methods="com.harshitJava.SeleniumAutomationStepByStep.App.setAndLaunch" duration-ms="1378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLocation -->
+        <test-method signature="selectFrom()[pri:0, instance:com.harshitJava.SeleniumAutomationStepByStep.App@630cb4a4]" started-at="2024-01-24T04:11:06 IST" name="selectFrom" finished-at="2024-01-24T04:11:09 IST" depends-on-methods="com.harshitJava.SeleniumAutomationStepByStep.App.selectLocation" duration-ms="3752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFrom -->
+        <test-method signature="selectDestination()[pri:0, instance:com.harshitJava.SeleniumAutomationStepByStep.App@630cb4a4]" started-at="2024-01-24T04:11:09 IST" name="selectDestination" finished-at="2024-01-24T04:11:13 IST" depends-on-methods="com.harshitJava.SeleniumAutomationStepByStep.App.selectFrom" duration-ms="3669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDestination -->
+        <test-method signature="selectDate()[pri:0, instance:com.harshitJava.SeleniumAutomationStepByStep.App@630cb4a4]" started-at="2024-01-24T04:11:13 IST" name="selectDate" finished-at="2024-01-24T04:11:18 IST" depends-on-methods="com.harshitJava.SeleniumAutomationStepByStep.App.selectDestination" duration-ms="4482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDate -->
+        <test-method signature="selectClass()[pri:0, instance:com.harshitJava.SeleniumAutomationStepByStep.App@630cb4a4]" started-at="2024-01-24T04:11:18 IST" name="selectClass" finished-at="2024-01-24T04:11:20 IST" depends-on-methods="com.harshitJava.SeleniumAutomationStepByStep.App.selectDate" duration-ms="2603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectClass -->
+        <test-method signature="search()[pri:0, instance:com.harshitJava.SeleniumAutomationStepByStep.App@630cb4a4]" started-at="2024-01-24T04:11:20 IST" name="search" finished-at="2024-01-24T04:11:25 IST" depends-on-methods="com.harshitJava.SeleniumAutomationStepByStep.App.selectClass" duration-ms="5321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- com.harshitJava.SeleniumAutomationStepByStep.App -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
